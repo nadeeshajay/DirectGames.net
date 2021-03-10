@@ -1,0 +1,79 @@
+body{
+	background-color: #030A0F  ;
+}
+
+footer{
+	text-align: center;
+	background-color:#030A0F ;
+	font-family:Microsoft JhengHei UI Light; 
+	color: #FFFFFF;
+}
+
+footer h3{
+	padding-top: 30px;
+	padding-bottom: 5px;
+}
+
+footer img:hover{
+	width: 52px;
+	height: 52px;
+}
+
+footer div{
+	padding-bottom: 40px;
+}
+
+footer p{
+	padding-bottom: 30px;
+}
+
+h3{
+	color: #ffffff;
+	font-family:Microsoft JhengHei UI Light; 
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+@media(max-width:768px){
+	footer h3{
+		font-size: 24px;
+	}
+}
+@media(max-width:400px){
+	footer h3{
+		font-size: 18px;
+	}
+	footer img{
+		width: 32px;
+		height: 32px;
+	}
+}
+
+.card{
+	min-width: 190px;
+	background-color: #343a40;
+	color: #ffffff;
+}
+
+section a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+section a:hover{
+	font-weight: bold;
+	text-decoration: none;
+	color: #030A0F;
+}
+
+
+.page-link:hover{
+	border-width: 2px;
+	font-weight: bold;
+}
+
+.carousel-inner h1{
+	font-weight: 600;
+	font-size: 72px;
+}
